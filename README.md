@@ -12,11 +12,11 @@ BazaDanych - Hibernate + MongoDB
 ## Status Wykonania
 ### Pierwsza Faza (Alpha)
 Gole:
-1. Encje w bazie danych
-2. Mozliwy odczyt/zapis
-3. Testy
+- [x] Encje w bazie danych
+- [x] Mozliwy odczyt/zapis
+- [x] Testy
 
-Osiagnie praktycznie w 100%:
+```
 -------------------------------------------------------
  T E S T S
 -------------------------------------------------------
@@ -57,16 +57,16 @@ Size: 10
 +----------------------------------+----------------------------------+------------------------+
 Mar 22, 2016 5:53:48 AM org.hibernate.ogm.datastore.mongodb.impl.MongoDBDatastoreProvider stop
 INFO: OGM001202: Closing connection to MongoDB
-
+```
 Podczas testow pojawil sie problem:
 https://forum.hibernate.org/viewtopic.php?f=31&t=1039494
 
 ### Faza druga (Beta)
 Gole 
-1. Przejscie na WAR 
-2. Dodanie REST
-3. Deploy na WilFly
-4. Testy
+- [x] Przejscie na WAR 
+- [x] Dodanie REST
+- [x] Deploy na WilFly
+- [ ] Testy
 
 Napotkane problemy z dependecy:
 ![Dependenc Error] (AbstractMethodError.png)
